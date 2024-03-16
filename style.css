@@ -1,0 +1,413 @@
+body *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  
+}
+/** --------------------home page----------------*/
+
+
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+  }
+  nav ul{
+    color: #000000;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  ul {
+    list-style: none;
+    color: #ffffff;
+  }
+    
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  header {
+    background: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  header .logo img {
+    height: 50px;
+  }
+  
+  header nav ul {
+    display: flex;
+  }
+  
+  header nav ul li {
+    padding: 0 1rem;
+  }
+  
+  header .search-box {
+    display: flex;
+  }
+  
+  header .search-box input {
+    width: 50%;
+    padding: 0.5rem;
+  }
+  
+  header .search-box button {
+    width: 20%;
+    padding: 0.5rem;
+    background: #000000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+  }
+  
+  #home h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  #home p {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  #about {
+    padding: 0 0;
+    background: #f4f4f4;
+    text-align: center;
+  }
+   
+  #about h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  #about .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #about .pro {
+    width: 30%;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  #about .pro img {
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  #about .pro .des h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  #about .pro .des h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #ffa500;
+  }
+  
+  #banner {
+    background:rgb(5, 5, 9);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin: 3rem 0;
+  }
+  
+  #banner h2 span {
+    color: #fff;
+    
+    padding: 0.5rem 1rem;
+  }
+.copyright{
+  text-align: center;
+}
+
+
+/** --------------product page----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**h1 {
+font-size: 50px;
+line-height: 64px;
+color: #ffffff;
+} */
+
+h2 {
+font-size: 46px;
+line-height: 54px;
+color: #000000;
+}
+h3 {
+font-size: 46px;
+line-height: 54px;
+color: #000000;
+}
+h4 {
+font-size: 20px;
+color: #ffffff;
+}
+
+h6 {
+font-weight: 700px;
+font-size: 12px;
+}
+header {
+  background-color: rgb(5, 5, 9);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px;
+  width: 50px; /* Set the width of the container */
+  height: 150px; /* Set the height of the container */
+  overflow: hidden; /* Hide overflowing content (for circular shape) */
+  border-radius: 50%; /* Create a circular shape with 50% border-radius */
+  margin: 20px; /* Optional: Adjust margin as needed */
+}
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* Text color of the navbar links */
+  padding: 10px 20px; /* Adjust the padding as needed */
+  display: inline-block;
+}
+
+nav a:hover {
+  color: #6e3131; /* Background color on hover */
+  transition:0.3s;
+}
+nav a:after {
+  content: '';
+  display: block;
+  height: 2px; /* Adjust the thickness of the underline */
+  width: 0;
+  background-color: #fff; /* Color of the underline */
+  transition: width 0.3s ease; /* Transition effect for the underline */
+}
+nav a:hover:after {
+  width: 100%; /* Full width on hover */
+}
+.search-box{
+  display: flex;
+}
+
+.search-box input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-box button {
+  padding: 8px 15px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #333;
+}
+
+
+/* footer section---------------------*/
+
+
+
+footer {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer h4{
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 8;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i {
+  color: #f2f2f2;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .install .row img{
+  border: 1px solid #f7f7f7;
+  border-radius: 6px;
+}
+
+footer .install img{
+  margin: 10px 0 15px 0;
+  width: 8%;
+}
+
+footer .follow i:hover,
+footer a:hover{
+  color:#6e3131;
+}
+
+footer .copyright{
+  width: 100%;
+  text-align: center;
+}
+.maincontent{
+  display: flex;
+  align-items: center;
+}
+.content{
+  flex: 1;
+  padding: 20px;
+  padding: 20px;
+}
+.content h1{
+  font-size: 40px;
+}
+.content p{
+  font-size: 22px;
+}
+.positive{
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 22px;
+}
+.negative{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+.business p{
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
